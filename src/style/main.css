@@ -1,59 +1,67 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	background: #eee;
-	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+  background: #eee;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
 }
 
 main {
-	background: #bada55;
-	width: 100vw;
-	height: 100vh;
+  background: #bada55;
+  width: 100vw;
+  height: 100vh;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .controls {
-	top: 2rem;
-	left: 2rem;
+  position: fixed;
+  display: flex;
+  top: 2rem;
+  left: 2rem;
 }
 
 .control {
-	margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .control label {
-	display: block;
-	color: darkgreen;
-	margin-bottom:.2rem;
-	text-transform: uppercase;
+  display: block;
+  color: darkgreen;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
 }
 
 .control input {
-	font-size: 1.2rem;
-	padding: .4rem .6rem;
-	border-radius: .5rem;
-	width: 3rem;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  width: 3rem;
 }
 
 .count_button {
-	width: 10rem;
-	height: 10rem;
-	background: yellow;
-	border-radius: .4rem;
-	border: 2px solid green;
-	box-shadow: 1px 1px 4px 2px #557668;
+  width: 10rem;
+  height: 10rem;
+  background: yellow;
+  border-radius: 0.4rem;
+  border: 2px solid green;
+  box-shadow: 1px 1px 4px 2px #557668;
 }
 
 .count_button:active {
-	box-shadow: none ;
-	box-shadow: 1px 1px 1px 1px #557668;
+  box-shadow: none;
+  box-shadow: 1px 1px 1px 1px #557668;
 }
 
 .count_button .current_count {
-	font-size: 2rem;
-	font-weight: bold;
-	color: darkgreen;
+  font-size: 2rem;
+  font-weight: bold;
+  color: darkgreen;
 }

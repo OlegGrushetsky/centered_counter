@@ -7,22 +7,23 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest",
+    "test": "vitest ./src",
     "test:e2e": "playwright test",
     "prettier": "prettier --write .",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives"
   },
   "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4",
     "eslint": "^8.55.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "globals": "^15.9.0",
+    "prettier": "^3.3.3",
     "typescript": "^5.2.2",
     "typescript-eslint": "^8.5.0",
     "vite": "5.2.6",
     "vite-plugin-eslint": "^1.8.1",
-    "@playwright/test": "^1.47.0",
-    "vitest": "^1.2.1",
-    "prettier": "^3.3.3"
+    "vitest": "^1.2.1"
   }
 }

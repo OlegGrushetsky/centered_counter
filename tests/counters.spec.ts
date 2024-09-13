@@ -17,7 +17,7 @@ test.describe("Counters", () => {
     await page.getByLabel("Start at").fill("100");
     await page.getByLabel("Step").fill("10");
 
-    await page.getByRole("button", { name: "0" }).click();
+    await page.getByRole("button", { name: "100" }).click();
     await expect(page.getByRole("button", { name: "110" })).toBeVisible();
 
     await page.getByRole("button", { name: "110" }).click();

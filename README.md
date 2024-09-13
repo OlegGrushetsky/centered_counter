@@ -45,7 +45,7 @@ When you change either the `start_at` or `step` controls, new instance from the 
 All test are passing. To run them:
 
 ```sh
-npm run test
+npm run tests
 ```
 
 To work on the code:
